@@ -17,3 +17,11 @@ RSpec.describe do
     expect(File.read("app/assets/stylesheets/admin.css")).to include("*= require blogs")
   end
 end
+
+/* (
+*= require 'posts'
+*= require 'bootstrap-addon'
+*= require 'jquery-addon'
+*= require 'blogs' )
+*/
+
